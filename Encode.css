@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.app-container {
+    background-color: white;
+    width: 100%;
+    max-width: 420px; /* phone-like width */
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    color: dimgray;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+button {
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.btn-primary {
+    background-color: blue;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: lavender;
+    color: midnightblue;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.hidden {
+    display: none;
+}
+
+#image-preview {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#selected-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#loading-screen {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.info-card {
+    background-color: whitesmoke;
+    text-align: left;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.info-card h3 {
+    margin: 0;
+}
+
+.verdict-text {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: lightblue;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
